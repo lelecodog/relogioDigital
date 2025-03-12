@@ -29,8 +29,8 @@ git clone <https://github.com/lelecodog/relogioDigital.git>
 2. Crie um ambiente virtual e ative-o:
 
 python -m venv venv
-venv\Scripts\activate  # No Windows
-source venv/bin/activate  # No macOS/Linux
+-No windows  venv\Scripts\activate   
+-No macOS/Linux  source venv/bin/activate
 
 3. Instale as dependências:
 
