@@ -22,7 +22,6 @@ Este é um projeto de Relógio Mundial desenvolvido para aprimorar os estudos de
 1. Clone o repositório:
 
 git clone <https://github.com/lelecodog/relogioDigital.git>
-cd RelogioMundial
 
 2. Crie um ambiente virtual e ative-o:
 
