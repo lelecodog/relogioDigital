@@ -2,11 +2,13 @@
 
 Este é um projeto de Relógio Mundial desenvolvido para aprimorar os estudos de uso de API e a utilização de programação assíncrona (async) em Python. O projeto utiliza a biblioteca Flet para criar a interface gráfica e a API do OpenWeatherMap para obter informações meteorológicas.
 
+
 ## Funcionalidades
 
 - Exibe a hora atual do PC.
 - Permite a entrada do nome de uma cidade para obter informações meteorológicas.
 - Atualiza a hora e as informações meteorológicas em tempo real.
+
 
 ## Tecnologias Utilizadas
 
@@ -16,6 +18,7 @@ Este é um projeto de Relógio Mundial desenvolvido para aprimorar os estudos de
 - Python-Decouple
 - Pytz
 - Asyncio
+
 
 ## Instalação
 
@@ -37,13 +40,15 @@ pip install -r requirements.txt
 
 API_KEY=sua_openweathermap_api_key
 
+
 ## Utilização
 
 Execute o script `main.py` para iniciar o aplicativo:
 
 python main.py
 
-## Explicação sobre a Utilização do Async
+
+## Uso do Async
 
 A programação assíncrona (async) é utilizada neste projeto para atualizar a hora e as informações meteorológicas em tempo real sem bloquear a interface do usuário. A função `update_clock` é uma função assíncrona que atualiza a hora a cada segundo. A função `main` cria uma tarefa assíncrona para `update_clock`, permitindo que a interface do usuário continue responsiva enquanto a hora é atualizada em segundo plano.
 
@@ -67,6 +72,7 @@ async def main(page: ft.Page):
 ft.app(target=main)
 ```
 
+
 ## Contribuição
 
 Sinta-se à vontade para contribuir com melhorias para este projeto. Para contribuir, siga os passos abaixo:
@@ -76,6 +82,7 @@ Sinta-se à vontade para contribuir com melhorias para este projeto. Para contri
 3. Faça commit das suas alterações (`git commit -m 'Adiciona nova funcionalidade'`).
 4. Faça push para a branch (`git push origin feature/nova-funcionalidade`).
 5. Abra um Pull Request.
+
 
 ## Licença
 
